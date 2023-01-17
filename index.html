@@ -5,15 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="./recipes/smoothie.html">Fruit and Yogurt Smoothie</a></li>
-        <li><a href="./recipes/chicken-sandwich.html">Slow Cooker Buffalo Chicken Sandwiches</a></li>
-        <li><a href="./recipes/porkchop.html">Pan-Fried Pork Chops</a></li>
-        <li><a href="./recipes/scrambled-eggs.html">Fluffy Microwave Scrambled Eggs</a></li>
-    </ul>
-    
+
+    <main>
+        <section class="hero-section">
+            <h1>Odin Recipes</h1>
+            <h2>This is a website project under the<br><span>"TheOdinProject Web Development Curriculum"</span></h2>
+            <p>Created by Alexis Aubrey Brusola</p>
+        </section>
+        
+        <section class="card-section">
+            <ul class="card-container">
+                <a href="./recipes/smoothie.html">
+                    <li class="card">
+                        <img src="./recipes/img/smoothie.png" alt="Fruit and Yogurt Smoothie Image">
+                        <h2 class="card-title">Fruit and Yogurt Smoothie Recipe</h2>
+                        <p class="card-desc">This yogurt smoothie recipe is delicious! You may substitute the strawberries for any other berries or fruit.</p>
+                    </li>
+                </a>
+
+                <a href="./recipes/chicken-sandwich.html">
+                    <li class="card">
+                        <img src="./recipes/img/chicken-sandwich.png" alt="Slow Cooker Buffalo Chicken Sandwiches Image">
+                        <h2 class="card-title">Slow Cooker Buffalo Chicken Sandwiches</h2>
+                        <p class="card-desc">This crackpot Buffalo chicken is great for hearty sandwiches that will please those who love Buffalo chicken wings.</p>
+                    </li>
+                </a>
+
+                <a href="./recipes/porkchop.html">
+                    <li class="card">
+                        <div class="card-image">
+                            <img src="./recipes/img/./porkchop.png" alt="Pan-Fried Pork Chops Image">
+                        </div>
+                        <h2 class="card-title">Pan-Fried Pork Chops</h2>
+                        <p class="card-desc">Few things are as easy to prepare as these pan-fried boneless pork chops. They take only minutes to prepare!</p>
+                    </li>
+                </a>
+
+                <a href="./recipes/scrambled-eggs.html">
+                    <li class="card">
+                        <div class="card-image">
+                            <img src="./recipes/img/scrambled-egg.png" alt="Fluffy Microwave Scrambled Eggs Image">
+                        </div>
+                        <h2 class="card-title">Fluffy Microwave Scrambled Eggs</h2>
+                        <p class="card-desc">Use your microwave to make light and fluffy scrambled eggs for a quick and easy breakfast to start your day.</p>
+                    </li>
+                </a>
+            </ul>
+        </section>
+
+    </main>
 </body>
 </html>
