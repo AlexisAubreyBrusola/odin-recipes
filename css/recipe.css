@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+body {
+    color: rgb(27, 27, 27);
+    height: 100vh;
+    padding: 1rem 3rem;
+}
+
+body > * {
+    padding-bottom: 2rem;
+}
+
+/* Go Back Section */
+a {
+    text-decoration: none;
+    display: flex;
+    gap: .5rem;
+}
+
+#arrow-back {
+    width: 30px;
+    height: auto;
+}
+
+span {
+    color: rgb(117, 117, 255);
+    font-size: 1.25rem;
+    font-weight: 700;
+    align-self: center;
+}
+
+/* Header Section */
+header h1 {
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+/* Image Section */
+img {
+    width: 45%;
+    height: auto;
+}
+
+/* Description Section */
+.description {
+    width: 80%;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/*How-to Section */
+.how-to h2 {
+    font-size: 1.25rem;
+    font-weight: 800;
+    padding-bottom: 8px;
+}
+
+.how-to ul,ol {
+    padding: 0 0 5px 1.25rem;
+}
+
+.how-to {
+    padding-bottom: 15px;
+    width: 70%;
+}
+
+@media(max-width: 768px) { 
+    body {
+        padding: .75rem 2.5rem;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+
+    img {
+        width: 100%;
+    }
+    
+    .description {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .how-to {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    img {
+        width: 60%;
+        height: auto;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .how-to {
+        width: 100%;
+    }
+}
